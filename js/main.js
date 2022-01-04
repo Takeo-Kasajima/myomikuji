@@ -5,7 +5,10 @@
   const btn = document.getElementById('btn');
     btn.addEventListener('click', () =>{
       if(text1_.textContent=='答え'){ 
-        const results =['大吉','中吉','凶','末吉'];
+        const results =['大吉',
+        '中吉',
+        '凶',
+        '末吉'];
         // const results =['大吉','大吉','大吉','大吉','凶'];
         // btn.textContent=results[Math.floor(Math.random()*results.length)];
         const n=Math.floor(Math.random()*results.length);
@@ -29,12 +32,15 @@
         // }
 
         text1_.textContent='問い'
-        text1__.textContent=''
+        text1__.textContent='　'
 
       }else{
         text1_.textContent='答え'
         // text1__.textContent=text.textContent
-        const results =['大吉0','中吉1','凶2','末吉3'];
+        const results =['大吉0',
+        '中吉1',
+        '凶2',
+        '末吉3'];
         text1__.textContent=results[n_.textContent];
       }
     });
