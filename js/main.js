@@ -29,7 +29,7 @@
         // btn.textContent=results[Math.floor(Math.random()*results.length)];
         const n=Math.floor(Math.random()*results.length);
         text1.textContent=results[n];
-        n_.textContent=n;
+        n1_.textContent=n;
         // const n=Math.random();
         // if (n<0.05){
         //   btn.textContent='大吉'
@@ -72,30 +72,83 @@
         'Mr. Miki, that type of comment is unacceptable and totally inappropriate for the workplace!',
         'When you pay a visit and tea is served, you should not drink until prompted.',
         'I want you to report to Ms. Howard about today so you can improve your feedback skills.'];
-        text1__.textContent=results[n_.textContent];
+        text1__.textContent=results[n1_.textContent];
       }
     });
  
 
-  const btn2 = document.getElementById('btn2');
-  btn2.addEventListener('click', () =>{
-    // const results =['大吉','中吉','凶','末吉'];
-    // const results =['大吉','大吉','大吉','大吉','凶'];
-    // btn.textContent=results[Math.floor(Math.random()*results.length)];
-    const n=Math.random();
-    // if (n<0.05){
-    //   btn.textContent='大吉'
-    // }else if(n<0.2){
-    //   btn.textContent='中吉'
-    // }else{
-    //   btn.textContent='凶'
-    // }
-    if (n<0.05){
-      text2.textContent='大吉'
-    }else if(n<0.2){
-      text2.textContent='中吉'
-    }else{
-      text2.textContent='凶'
-    }
-  });
+    const btn2 = document.getElementById('btn2');
+    btn2.addEventListener('click', () =>{
+      if(text2_.textContent=='答え'){ 
+        const results =['すみませんがご一緒できません。すぐにミーティングがあるのです。',
+        'どちらもよさそうですね。',
+        'どれもおいしかったのですが、もうおなかがいっぱいです。',
+        'ありがとうございます。ですがここはぜひ払わせてください。',
+        '聞こえなかったので繰り返してくれませんか？',
+        'お待たせしてすみませんでした。会議を再開しましょうか？',
+        '本当に申し訳ないのですが、話を戻していいでしょうか？',
+        'わかりませんでした。どういった意味なのか説明していただけませんか？',
+        'お目にかかれてうれしく思います。麻里奈と呼んでください。こちらが私の名刺です。',
+        'どうか、何か具体的な詳細を教えてくれませんか？',
+        'このペットボトルをどこに捨てればいいか教えていただけますか？',
+        '申し訳ありません。帰社しなくてはなりません。お許しください。',
+        '請求書締め切りについて確認のお知らせです。締め切りは明日です。',
+        'お急がせるようで心苦しいのですが、明日には請求書をいただかなくてはなりません。もう送付済みであることをご確認いただけますか？',
+        ' 請求書が正しくありません。正しくは200万円です。',
+        'すみません。その件に関しては確認させてください。明日までお待ちいただけますか？',
+        'このプロジェクトチームにぜひ参加したいと思っています。力を合わせましょう。',
+        'お時間があるときに、このファックスの内容を教えてもらえませんか？',
+        'いいこと今思いついたよ！ 聞きたい？',
+        '締め切り間に合うと思う？ 大丈夫？'];        
+        // const results =['大吉','大吉','大吉','大吉','凶'];
+        // btn.textContent=results[Math.floor(Math.random()*results.length)];
+        const n=Math.floor(Math.random()*results.length);
+        text2.textContent=results[n];
+        n2_.textContent=n;
+        // const n=Math.random();
+        // if (n<0.05){
+        //   btn.textContent='大吉'
+        // }else if(n<0.2){
+        //   btn.textContent='中吉'
+        // }else{
+        //   btn.textContent='凶'
+        // }
+
+        // if (n<0.05){
+        //   text.textContent='大吉'
+        // }else if(n<0.2){
+        //   text.textContent='中吉'
+        // }else{
+        //   text.textContent='凶'
+        // }
+
+        text2_.textContent='問い'
+        text2__.textContent='　'
+
+      }else{
+        text2_.textContent='答え'
+        // text1__.textContent=text.textContent
+        const results =['I\'m sorry, I can\'t. I have a meeting now.',
+        'Both sound great!',
+        'Everything was delicious, but I\'m completely full.',
+        'I appreciate that, but I insist.',
+        'I lost you there. Could you please repeat that?',
+        'We are sorry to have kept you waiting. Shall we resume?',
+        'I feel so bad for you, but can we return to the original topic?',
+        'I don\'t get it. Could you explain what that means?',
+        'Nice to meet you. Call me Marina. Here is my card.',
+        'Please. Can you tell us anything more specific?',
+        'Would you show me where I can dispose of these plastic bottles?',
+        'I\'m sorry, but I need to get back. Please excuse me.',
+        'This is a gentle reminder about the invoice deadline. Please note it is tomorrow.',
+        'I hate to rush you, but we must receive the invoice by tomorrow. Can you please confirm it has been sent?',
+        'The invoice is incorrect. The amount should be 2 million.',
+        'Sorry, we need to check on that. Are you able to wait until tomorrow?',
+        'I would really like to be a part of the project team. Let\'s join forces.',
+        'When you have a moment, could you help me understand this fax?',
+        'I just had an idea! Would you like to hear it?',
+        'Do you think we can meet the deadline? Are you sure?'];
+        text2__.textContent=results[n2_.textContent];
+      }
+    });
 }
