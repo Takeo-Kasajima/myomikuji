@@ -14,16 +14,16 @@
         '銀',
         '白',
         '黄',
-        'あなたのプレゼンは魅力あふれるものでしたが、制限時間を超えました。そろそろ終わりにしてください。',
-        '今日皆さんからいただいた提案は、これから社内で検討し、来週末までに結果をお知らせできると思います。今日はここまでといたしましょう。ありがとうございました。',
-        'これらすべての機能を盛り込んでいただきたいのですが、試作品制作の予算は50万円しかありません。',
-        '1年後に製品の発売を計画していることを考えると、3か月以内に試作品を準備する必要がありますね。',
-        'まず最初に私たちが決めなくてはならないのは、具体的にどんなフレーズをアンクル・アミーーゴに言わせるかということだと思いますよ。',
-        '完全な試作品を作るために少し予算を超過することをご承認いただけますでしょうか？',
-        'エイミー、失礼だよ。何をおいても彼に、締切りを守って予算内に収めてもらったことを感謝しなくちゃ。',
-        '三木さん、そうしたコメントは職場では受け入れられないし、まったく不適切ですよ！',
-        '訪問先でお茶を出されたら、勧められるまで飲んではいけません。',
-        '君のフィードバックスキルを伸ばすために、今日のことについてハワードさんに報告してもらいたいんだ。'];
+        '1',
+        '2',
+        '3',
+        '4',
+        '5',
+        '6',
+        '7',
+        '8',
+        '9',
+        '10'];
         // const results =['大吉','大吉','大吉','大吉','凶'];
         // btn.textContent=results[Math.floor(Math.random()*results.length)];
         const n=Math.floor(Math.random()*results.length);
@@ -62,15 +62,16 @@
         'silver',
         'white',
         'yellow,
-        'We will now be considering all the ideas and proposals you provided today. We will be able to announce our decision by the end of next week. That\'s all for today. Thank you.',
-        'We want you to include all of these features, but the budget for this prototype is only 500,000 yen.',
-        'Considering that we are planning the product launch in one year, we will need the prototype ready within three months.',
-        'I think the first thing we need to decide is exactly which phrases we will have Uncle Amiiiiiigo say.',
-        'Would you approve going a little over budget so we can have a perfect sample?',
-        'Amy, you\'re being rude. Above all, you should thank him for meeting the deadline and staying within the budget.',
-        'Mr. Miki, that type of comment is unacceptable and totally inappropriate for the workplace!',
-        'When you pay a visit and tea is served, you should not drink until prompted.',
-        'I want you to report to Ms. Howard about today so you can improve your feedback skills.'];
+        'one',
+        'two',
+        'three',
+        'four',
+        'five',
+        'six',
+        'seven',
+        'eight',
+        'nine',
+        'ten'];
         text4__.textContent=results[n4_.textContent];
       }
     });
