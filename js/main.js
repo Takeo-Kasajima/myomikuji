@@ -33,7 +33,17 @@
         '17',
         '18',
         '19',
-        '20'];
+        '20',
+        '30',
+        '40',
+        '50',
+        '60',
+        '70',
+        '80',
+        '90',
+        '100',
+        '1000',
+        '100万'];
         // const results =['大吉','大吉','大吉','大吉','凶'];
         // btn.textContent=results[Math.floor(Math.random()*results.length)];
         const n=Math.floor(Math.random()*results.length);
@@ -91,7 +101,17 @@
         'seventeen',
         'eighteen',
         'nineteen',
-        'twenty'];
+        'twenty',
+        'thirty',
+        'forty',
+        'fifty',
+        'sixty',
+        'seventy',
+        'eighty',
+        'ninety',
+        'hundred',
+        'thousand',
+        'million'];
         text4__.textContent=results[n4_.textContent];
       }
     });
