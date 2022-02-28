@@ -43,7 +43,18 @@
         '90',
         '100',
         '1000',
-        '100万'];
+        '100万',
+        '10億',
+        '第1の 最初の',
+        '第2の',
+        '第3の',
+        '第4の',
+        '第5の',
+        '第6の',
+        '第7の',
+        '第8の',
+        '第9の',
+        '第10の'];
         // const results =['大吉','大吉','大吉','大吉','凶'];
         // btn.textContent=results[Math.floor(Math.random()*results.length)];
         const n=Math.floor(Math.random()*results.length);
@@ -111,7 +122,18 @@
         'ninety',
         'hundred',
         'thousand',
-        'million'];
+        'million',
+        'billion',
+        'first',
+        'second',
+        'third',
+        'fourth',
+        'fifth',
+        'sixth',
+        'seventh',
+        'eighth',
+        'ninth',
+        'tenth'];
         text4__.textContent=results[n4_.textContent];
       }
     });
