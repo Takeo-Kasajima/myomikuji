@@ -2,7 +2,7 @@
 
 {
   const btn4 = document.getElementById('btn4');
-    btn.addEventListener('click', () =>{
+    btn4.addEventListener('click', () =>{
       if(text4_.textContent=='答え'){ 
         const results =['色',
         '黒',
