@@ -70,7 +70,14 @@
         'おば',
         '兄　弟',
         '姉　妹',
-        'いとこ'];
+        'いとこ',
+        '月曜日',
+        '火曜日',
+        '水曜日',
+        '木曜日',
+        '金曜日',
+        '土曜日',
+        '日曜日'];
         // const results =['大吉','大吉','大吉','大吉','凶'];
         // btn.textContent=results[Math.floor(Math.random()*results.length)];
         const n=Math.floor(Math.random()*results.length);
@@ -165,7 +172,14 @@
         'aunt',
         'brother',
         'sister',
-        'cousin'];
+        'cousin',
+        'Monday',
+        'Tuesday',
+        'Wednesday',
+        'Thursday',
+        'Friday',
+        'Saturday',
+        'Sunday'];
         text4__.textContent=results[n4_.textContent];
       }
     });
