@@ -54,7 +54,23 @@
         '第7の',
         '第8の',
         '第9の',
-        '第10の'];
+        '第10の',
+        '家族',
+        '親',
+        '夫',
+        '妻',
+        '父',
+        '母',
+        '息子',
+        '娘',
+        '祖父',
+        '祖母',
+        '孫',
+        'おじ',
+        'おば',
+        '兄　弟',
+        '姉　妹',
+        'いとこ'];
         // const results =['大吉','大吉','大吉','大吉','凶'];
         // btn.textContent=results[Math.floor(Math.random()*results.length)];
         const n=Math.floor(Math.random()*results.length);
@@ -133,7 +149,23 @@
         'seventh',
         'eighth',
         'ninth',
-        'tenth'];
+        'tenth',
+        'family',
+        'parent',
+        'husband',
+        'wife',
+        'father',
+        'mother',
+        'son',
+        'daughter',
+        'grandfather',
+        'grandmother',
+        'grandchild',
+        'uncle',
+        'aunt',
+        'brother',
+        'sister',
+        'cousin'];
         text4__.textContent=results[n4_.textContent];
       }
     });
