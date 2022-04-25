@@ -203,4 +203,85 @@
         text5__.textContent=results[n5_.textContent];
       }
     });
+    
+    
+    const btn6 = document.getElementById('btn6');
+    btn6.addEventListener('click', () =>{
+      if(text6_.textContent=='答え'){ 
+        const results =['家','部屋','いす','壁','風呂','テーブル','床','台所'
+        ,'屋根','電話','テレビ','ベッド','ドア','庭'];        
+        // const results =['大吉','大吉','大吉','大吉','凶'];
+        // btn.textContent=results[Math.floor(Math.random()*results.length)];
+        const n=Math.floor(Math.random()*results.length);
+        text6.textContent=results[n];
+        n6_.textContent=n;
+        // const n=Math.random();
+        // if (n<0.05){
+        //   btn.textContent='大吉'
+        // }else if(n<0.2){
+        //   btn.textContent='中吉'
+        // }else{
+        //   btn.textContent='凶'
+        // }
+
+        // if (n<0.05){
+        //   text.textContent='大吉'
+        // }else if(n<0.2){
+        //   text.textContent='中吉'
+        // }else{
+        //   text.textContent='凶'
+        // }
+
+        text6_.textContent='問い'
+        text6__.textContent='　'
+
+      }else{
+        text6_.textContent='答え'
+        // text1__.textContent=text.textContent
+        const results =['house','room','chair','wall','bath','table','floor','kitchen'
+        ,'roof','telephone','television','bed','door','garden'];
+        text6__.textContent=results[n6_.textContent];
+      }
+    });
+    
+
+    
+    const btn7 = document.getElementById('btn7');
+    btn7.addEventListener('click', () =>{
+      if(text7_.textContent=='答え'){ 
+        const results =['顔','髪','歯','首','頭','目','耳','鼻','口'
+        ,'体','指','手','腕','脚','足首','肩','心臓、心','ひざ','足'];        
+        // const results =['大吉','大吉','大吉','大吉','凶'];
+        // btn.textContent=results[Math.floor(Math.random()*results.length)];
+        const n=Math.floor(Math.random()*results.length);
+        text7.textContent=results[n];
+        n7_.textContent=n;
+        // const n=Math.random();
+        // if (n<0.05){
+        //   btn.textContent='大吉'
+        // }else if(n<0.2){
+        //   btn.textContent='中吉'
+        // }else{
+        //   btn.textContent='凶'
+        // }
+
+        // if (n<0.05){
+        //   text.textContent='大吉'
+        // }else if(n<0.2){
+        //   text.textContent='中吉'
+        // }else{
+        //   text.textContent='凶'
+        // }
+
+        text7_.textContent='問い'
+        text7__.textContent='　'
+
+      }else{
+        text7_.textContent='答え'
+        // text1__.textContent=text.textContent
+        const results =['face','hair','tooth','neck','head','eye','ear','nose','mouth'
+        ,'body','finger','hand','arm','leg','ankle','shoulder','heart','knee','foot'];
+        text7__.textContent=results[n7_.textContent];
+      }
+    });
 }
