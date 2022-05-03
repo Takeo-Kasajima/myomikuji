@@ -284,4 +284,122 @@
         text7__.textContent=results[n7_.textContent];
       }
     });
+    
+    
+    const btn8 = document.getElementById('btn8');
+    btn8.addEventListener('click', () =>{
+      if(text8_.textContent=='答え'){ 
+        const results =['1月','2月','3月','4月','5月','6月','7月','8月','9月'
+        ,'10月','11月','12月'];        
+        // const results =['大吉','大吉','大吉','大吉','凶'];
+        // btn.textContent=results[Math.floor(Math.random()*results.length)];
+        const n=Math.floor(Math.random()*results.length);
+        text8.textContent=results[n];
+        n8_.textContent=n;
+        // const n=Math.random();
+        // if (n<0.05){
+        //   btn.textContent='大吉'
+        // }else if(n<0.2){
+        //   btn.textContent='中吉'
+        // }else{
+        //   btn.textContent='凶'
+        // }
+
+        // if (n<0.05){
+        //   text.textContent='大吉'
+        // }else if(n<0.2){
+        //   text.textContent='中吉'
+        // }else{
+        //   text.textContent='凶'
+        // }
+
+        text8_.textContent='問い'
+        text8__.textContent='　'
+
+      }else{
+        text8_.textContent='答え'
+        // text1__.textContent=text.textContent
+        const results =['January','February','March','April','May','June','July','August','September'
+        ,'October','November','December'];
+        text8__.textContent=results[n8_.textContent];
+      }
+    });
+    
+    
+    const btn9 = document.getElementById('btn9');
+    btn9.addEventListener('click', () =>{
+      if(text9_.textContent=='答え'){ 
+        const results =['音楽','太鼓','フルート','ギター','ピアノ','歌','バイオリン'];        
+        // const results =['大吉','大吉','大吉','大吉','凶'];
+        // btn.textContent=results[Math.floor(Math.random()*results.length)];
+        const n=Math.floor(Math.random()*results.length);
+        text9.textContent=results[n];
+        n9_.textContent=n;
+        // const n=Math.random();
+        // if (n<0.05){
+        //   btn.textContent='大吉'
+        // }else if(n<0.2){
+        //   btn.textContent='中吉'
+        // }else{
+        //   btn.textContent='凶'
+        // }
+
+        // if (n<0.05){
+        //   text.textContent='大吉'
+        // }else if(n<0.2){
+        //   text.textContent='中吉'
+        // }else{
+        //   text.textContent='凶'
+        // }
+
+        text9_.textContent='問い'
+        text9__.textContent='　'
+
+      }else{
+        text9_.textContent='答え'
+        // text1__.textContent=text.textContent
+        const results =['music','drum','flute','guitar','piano','song','violin'];
+        text9__.textContent=results[n9_.textContent];
+      }
+    });
+    
+    
+    const btn10 = document.getElementById('btn10');
+    btn10.addEventListener('click', () =>{
+      if(text10_.textContent=='答え'){ 
+        const results =['カバン','ボタン、押しボタン','ふちのない帽子','衣服','ふちのある帽子','コート','ドレス','手袋','上着'
+        ,'ズボン','リボン','シャツ','Tシャツ','靴','スカート','傘','腕時計'];        
+        // const results =['大吉','大吉','大吉','大吉','凶'];
+        // btn.textContent=results[Math.floor(Math.random()*results.length)];
+        const n=Math.floor(Math.random()*results.length);
+        text10.textContent=results[n];
+        n10_.textContent=n;
+        // const n=Math.random();
+        // if (n<0.05){
+        //   btn.textContent='大吉'
+        // }else if(n<0.2){
+        //   btn.textContent='中吉'
+        // }else{
+        //   btn.textContent='凶'
+        // }
+
+        // if (n<0.05){
+        //   text.textContent='大吉'
+        // }else if(n<0.2){
+        //   text.textContent='中吉'
+        // }else{
+        //   text.textContent='凶'
+        // }
+
+        text10_.textContent='問い'
+        text10__.textContent='　'
+
+      }else{
+        text10_.textContent='答え'
+        // text1__.textContent=text.textContent
+        const results =['bag','button','cap','clothes','hat','coat','dress','glove','jacket'
+        ,'pants','ribbon','shirt','T-shirt','shoe','skirt','umbrella','watch'];
+        text10__.textContent=results[n10_.textContent];
+      }
+    });
 }
